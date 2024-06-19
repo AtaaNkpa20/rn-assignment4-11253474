@@ -50,7 +50,7 @@ const LoginScreen = ({ navigation }) => {
         <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/128/5968/5968764.png' }} style={styles.image} />
       </View>
       <Text style={styles.low}>Don't Have Account?
-      <Text style={styles.register}>Register</Text>
+      <Text style={styles.register} >Register</Text>
       </Text>
       <TouchableOpacity onPress={handleLinkPress}>
         <Text style={styles.linkText}>Forgot your password?</Text>
